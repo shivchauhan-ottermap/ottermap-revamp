@@ -27,35 +27,36 @@ const FAQs = () => {
     ];
 
     return (
-        <div>
-            <div className='pt-28 pl-20 text-4xl font-bold'>
-                FAQ'S
-            </div>
+        <div className="px-4 sm:px-10">
+    <div className='pt-20 sm:pt-28 text-2xl sm:text-3xl lg:text-4xl font-bold text-left sm:pl-10 lg:pl-20'>
+        FAQ'S
+    </div>
 
-            <div className='flex flex-col gap-5 justify-center items-center pt-20'>
-                {FAQ.map((item) => (
-                    <div
-                        key={item.id}
-                        className='w-[90%] bg-[#f5f6f7] rounded-xl border cursor-pointer'
-                        onClick={() => toggleFAQ(item.id)}
-                    >
-                        <div className='flex justify-between items-center px-10 py-8 text-2xl font-normal'>
-                            <div>{item.id}. {item.question}</div>
-                            <img
-                                src={Plus}
-                                alt="Toggle"
-                                className={`transition-transform duration-200 ${expandedId === item.id ? 'rotate-45' : ''}`}
-                            />
-                        </div>
-                        {expandedId === item.id && (
-                            <div className='px-10 pb-8 text-lg text-gray-700'>
-                                {item.answer}
-                            </div>
-                        )}
+    <div className='flex flex-col gap-5 justify-center items-center pt-10 sm:pt-20'>
+        {FAQ.map((item) => (
+            <div
+                key={item.id}
+                className='w-full max-w-screen-md bg-[#f5f6f7] rounded-xl border cursor-pointer'
+                onClick={() => toggleFAQ(item.id)}
+            >
+                <div className='flex justify-between items-center px-6 sm:px-10 py-6 sm:py-8 text-lg sm:text-xl lg:text-2xl font-normal'>
+                    <div>{item.id}. {item.question}</div>
+                    <img
+                        src={Plus}
+                        alt="Toggle"
+                        className={`transition-transform duration-200 ${expandedId === item.id ? 'rotate-45' : ''}`}
+                    />
+                </div>
+                {expandedId === item.id && (
+                    <div className='px-6 sm:px-10 pb-6 sm:pb-8 text-base sm:text-lg text-gray-700'>
+                        {item.answer}
                     </div>
-                ))}
+                )}
             </div>
-        </div>
+        ))}
+    </div>
+</div>
+
     );
 };
 
