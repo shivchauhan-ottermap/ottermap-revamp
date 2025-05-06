@@ -1,5 +1,5 @@
 import React from 'react'
-import TopImage from '../assets/topImage.svg';
+import HeroImage1 from '../assets/heroImages/heroImage1.svg';
 import RightArrow from '../assets/rightArrow.svg';
 import CircularImage from '../assets/circularImage.svg';
 import CircularImage1 from '../assets/circularImage1.svg';
@@ -30,8 +30,8 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="xl:w-1/2 sm:w-[50%]  max-sm:w-full max-sm:px-10 xl:pr-10 lg:pr-10 md:pr-10">
-                <img className="rounded-lg w-full" src={TopImage} alt="map image" />
+            <div className="xl:w-1/2 sm:w-[50%] max-sm:w-full max-sm:px-10 xl:pr-10 lg:pr-10 md:pr-10">
+                <img className="rounded-lg w-full" src={HeroImage1} alt="map image" />
                 {/* img */}
             </div>
         </div>
