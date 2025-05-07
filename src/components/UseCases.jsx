@@ -21,7 +21,7 @@ const UseCases = () => {
         }
     ];
     return (
-        <div className="px-4 sm:px-10 lg:px-20 pt-28">
+        <div className="px-4 sm:px-10 lg:px-20 pt-28 pb-24">
             <div className='flex flex-col gap-5 pb-10'>
                 <div className='text-2xl sm:text-3xl lg:text-4xl font-bold'>
                     Built for every journey, Powered by every Use case

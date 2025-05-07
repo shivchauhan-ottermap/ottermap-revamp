@@ -36,14 +36,12 @@ const ProblemAndSolution = () => {
         },
     ]
     return (
-        <div className="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-20 pt-12 md:pt-32 pb-8 gap-10">
-            <div className="w-full lg:w-1/2 flex flex-col justify-start items-start gap-5 lg:pl-4 xl:pr-20">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-                    Everything You Need to Map, Measure, and Win More Work
-                </div>
-                <div className="text-base sm:text-lg lg:text-2xl font-normal">
+        <div className="flex flex-col px-4 sm:px-8 lg:px-20 pt-12 md:pt-32 pb-8 gap-10">
+            <div className="w-full flex flex-col justify-center items-center gap-6 lg:pl-4 xl:pr-20 ">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center">
                     Managing property estimates shouldn’t cost you bids, time, or your sanity. But for most service businesses, it still does.
                 </div>
+
                 <div>
                     <button className="bg-[#218448] cursor-pointer rounded-full text-white px-4 py-3 flex justify-center items-center gap-2">
                         Try for Free
@@ -51,24 +49,23 @@ const ProblemAndSolution = () => {
                     </button>
                 </div>
             </div>
-
-            <div className="w-full lg:w-1/2 lg:border-l-4 border-dotted border-[#218448] lg:px-10">
-                {problemandSolution.map((item, index) => (
-                    <div key={index} className="flex flex-col gap-8 pb-10">
-                        <div className='flex flex-col gap-7'>
-                            <div className="text-sm font-bold text-[#218448] bg-[#2184484D] rounded-full px-6 py-2 w-fit">
-                                {item.chip}
+            <div className="pt-10 px-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+                    {problemandSolution.map((_, idx) => (
+                        <div key={idx} className="border rounded-lg p-4 bg-white shadow-md flex flex-col gap-6 pt-8 pb-9 pl-8">
+                            <div className="flex items-center gap-3 text-lg font-bold text-[#ff0000] uppercase bg-[#2184484D] rounded-full px-3 py-1 w-fit mb-3">
+                                <img className="w-6 h-6 object-contain" src={_.icon} alt="Problem icon" />
+                                {_.chip}
                             </div>
-                            <div className="flex items-start gap-7 text-base sm:text-lg font-bold">
-                                <img src={item.icon} alt="" />
-                                {item.problem}
+                            <div className="text-lg font-bold mb-2">
+                                {_.problem}
+                            </div>
+                            <div className="text-[#218448] text-2xl">
+                                {_.solution}
                             </div>
                         </div>
-                        <div className="text-xl sm:text-2xl lg:text-3xl font-medium text-[#218448]">
-                            {item.solution}
-                        </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
 

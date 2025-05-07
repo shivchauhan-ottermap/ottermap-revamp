@@ -17,11 +17,11 @@ const Landing = () => {
             <Navbar />
             <Hero />
             <ProblemAndSolution />
+            <WalkThrough />
             <Features />
             <Values />
             <Testimonial />
             <UseCases />
-            <WalkThrough />
             <Banner />
             <FAQs />
             <Footer />
