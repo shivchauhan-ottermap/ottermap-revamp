@@ -69,7 +69,7 @@ const Values = () => {
                 {valueItems.map((item, index) => (
                     <div
                         key={index}
-                        className="border border-[#218448] p-6 flex flex-col gap-6 rounded-xl bg-white"
+                        className="border border-[#218448] p-6 flex flex-col gap-6 rounded-xl bg-white hover:scale-105 transition duration-300 ease-in-out"
                     >
                         <div className="flex flex-col gap-3">
                             <div className="p-2 bg-green-700 w-fit rounded-full">
