@@ -1,6 +1,6 @@
 import React from 'react';
-import Video from '../assets/video.svg';
-import RightArrow from '../assets/rightArrow.svg';
+import Video from '../../assets/video.svg';
+import RightArrow from '../../assets/rightArrow.svg';
 
 const WalkThrough = () => {
     return (

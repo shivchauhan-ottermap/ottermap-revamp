@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Plus from '../assets/plus.svg';
+import Plus from '../../assets/plus.svg';
 
 const FAQs = () => {
     const [expandedId, setExpandedId] = useState(null);

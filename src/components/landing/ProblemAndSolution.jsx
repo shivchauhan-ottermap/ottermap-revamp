@@ -1,9 +1,9 @@
 import React from 'react'
-import RightArrow from '../assets/rightArrow.svg';
-import ProblemSolution1 from '../assets/problemSolution/problemSolution1.svg';
-import ProblemSolution2 from '../assets/problemSolution/problemSolution2.svg';
-import ProblemSolution3 from '../assets/problemSolution/problemSolution3.svg';
-import ProblemSolution from '../assets/problemSolution/problemSolution.svg';
+import RightArrow from '../../assets/rightArrow.svg';
+import ProblemSolution1 from '../../assets/landing/problemSolution/problemSolution1.svg';
+import ProblemSolution2 from '../../assets/landing/problemSolution/problemSolution2.svg';
+import ProblemSolution3 from '../../assets/landing/problemSolution/problemSolution3.svg';
+import ProblemSolution from '../../assets/landing/problemSolution/problemSolution.svg';
 
 const ProblemAndSolution = () => {
     const problemandSolution = [

@@ -1,6 +1,6 @@
 import React from 'react';
-import CircularImage from '../assets/testimonial/circularImage.svg';
-import CircularImage1 from '../assets/testimonial/circularImage1.svg';
+import CircularImage from '../../assets/landing/testimonial/circularImage.svg';
+import CircularImage1 from '../../assets/landing/testimonial/circularImage1.svg';
 
 const Testimonial = () => {
   const testimonials = [

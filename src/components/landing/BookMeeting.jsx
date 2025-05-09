@@ -1,8 +1,8 @@
 import React from 'react'
-import Logo from '../assets/logo.svg';
-import TimeIcon from '../assets/bookMeeting/bookMeetingTimeIcon.svg';
-import VideoIcon from '../assets/bookMeeting/bookMeetingVideoIcon.svg';
-import UserIcon from '../assets/bookMeeting/bookMeetingUserIcon.svg';
+import Logo from '../../assets/logo.svg';
+import TimeIcon from '../../assets/landing/bookMeeting/bookMeetingTimeIcon.svg';
+import VideoIcon from '../../assets/landing/bookMeeting/bookMeetingVideoIcon.svg';
+import UserIcon from '../../assets/landing/bookMeeting/bookMeetingUserIcon.svg';
 import { InlineWidget } from "react-calendly";
 
 const BookMeeting = () => {

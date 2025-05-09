@@ -1,9 +1,9 @@
 import React from 'react';
-import RightArrow from '../assets/rightArrow.svg';
-import Value1 from '../assets/values/value1.svg';
-import Value2 from '../assets/values/value2.svg';
-import Value3 from '../assets/values/value3.svg';
-import Value4 from '../assets/values/value4.svg';
+import RightArrow from '../../assets/rightArrow.svg';
+import Value1 from '../../assets/landing/values/value1.svg';
+import Value2 from '../../assets/landing/values/value2.svg';
+import Value3 from '../../assets/landing/values/value3.svg';
+import Value4 from '../../assets/landing/values/value4.svg';
 
 const Values = () => {
     const valueItems = [{

@@ -1,5 +1,5 @@
 import React from 'react';
-import BottomBanner from '../assets/bottomBanner/bottomBanner.svg';
+import BottomBanner from '../../assets/landing/bottomBanner/bottomBanner.svg';
 
 const Banner = () => {
     return (

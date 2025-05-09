@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
-import HeroImage1 from '../assets/heroImages/heroImage1.svg';
-import HeroImage2 from '../assets/heroImages/heroImage2.svg';
-import HeroImage3 from '../assets/heroImages/heroImage3.svg';
-import RightArrow from '../assets/rightArrow.svg';
-import CircularIcon1 from '../assets/heroImages/circularIcon1.svg';
-import CircularIcon2 from '../assets/heroImages/circularIcon2.svg';
+import HeroImage1 from '../../assets/landing/heroImages/heroImage1.svg';
+import HeroImage2 from '../../assets/landing/heroImages/heroImage2.svg';
+import HeroImage3 from '../../assets/landing/heroImages/heroImage3.svg';
+import RightArrow from '../../assets/rightArrow.svg';
+import CircularIcon1 from '../../assets/landing/heroImages/circularIcon1.svg';
+import CircularIcon2 from '../../assets/landing/heroImages/circularIcon2.svg';
 
 const Hero = () => {
   const heroImages = [HeroImage1, HeroImage2, HeroImage3];

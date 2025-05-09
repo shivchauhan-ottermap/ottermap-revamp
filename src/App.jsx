@@ -1,3 +1,4 @@
+import Snow from "./pages/industries/Snow";
 import Landing from "./pages/Landing";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -8,6 +9,12 @@ function App() {
         <Route path="/" element={
           <div className="font">
             <Landing />
+          </div>
+        }
+        />
+        <Route path="/industries/snow" element={
+          <div className="font">
+            <Snow />
           </div>
         }
         />

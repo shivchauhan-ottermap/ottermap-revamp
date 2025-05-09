@@ -1,8 +1,8 @@
 import React from 'react';
-import UseCase1 from '../assets/useCases/useCase1.svg';
-import UseCase2 from '../assets/useCases/useCase2.svg';
-import UseCase3 from '../assets/useCases/useCase3.svg';
-import RightArrow from '../assets/rightArrow.svg';
+import UseCase1 from '../../assets/landing/useCases/useCase1.svg';
+import UseCase2 from '../../assets/landing/useCases/useCase2.svg';
+import UseCase3 from '../../assets/landing/useCases/useCase3.svg';
+import RightArrow from '../../assets/rightArrow.svg';
 
 const UseCases = () => {
     const usecases = [
