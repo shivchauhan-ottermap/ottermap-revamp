@@ -12,22 +12,27 @@ const FAQs = () => {
         {
             id: 1,
             question: 'What is Ottermap?',
-            answer: 'No! OtterMap is easy to use and requires no coding experience. Our user-friendly interface makes it easy to create, customize, and publish maps quickly and efficiently.'
+            answer: 'Ottermap is an end-to-end, fully automated property measurement platform, where you do some clicks and get custom tailored results as per your RFP needs.'
         },
         {
             id: 2,
             question: 'How does Ottermap digitize/measures properties?',
-            answer: 'Yes! You can create custom tooltips or popups on markers using OtterMap’s built-in UI editor. It allows you to show additional information when users hover or click on map elements.'
+            answer: 'We use latest technology to process high definition aerial imagery with the help of AI & ML to churn out data that is most relevant to your use.'
         },
         {
             id: 3,
-            question: 'Can I create Interactive popups or tooltips on markers?',
-            answer: 'Absolutely! OtterMap provides you with an embed code to easily add your interactive map into any website or app.'
+            question: 'What type of property measurements can I request at Ottermap?',
+            answer: 'You can measure any property for surface area and its features that are standard across the any of the landscaping industry or pavement industry.'
         },
         {
             id: 4,
-            question: 'Can I embed maps into my website or app?',
-            answer: 'Absolutely! OtterMap provides you with an embed code to easily add your interactive map into any website or app.'
+            question: 'How does Ottermap handle a property covered by trees?',
+            answer: 'Currently we are in the process of sourcing high definition imagery taken at different times throughout the year from different service providers across the state for you to be able to map properties that have dense canopy as well.'
+        },
+        {
+            id: 5,
+            question: 'Can Ottermap measure hundreds of properties in one-go?',
+            answer: 'Yes, you can get thousands of properties measured across US, you just need to share the list of addresses and features that you will like us to deliver. Please drop us an email for multiple properties: info@ottermap.com'
         },
     ];
 

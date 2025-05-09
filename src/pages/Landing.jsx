@@ -10,6 +10,7 @@ import Banner from '../components/Banner'
 import FAQs from '../components/FAQs'
 import Footer from '../components/Footer'
 import ProblemAndSolution from '../components/ProblemAndSolution'
+import BookMeeting from '../components/BookMeeting'
 
 const Landing = () => {
     return (
@@ -22,6 +23,7 @@ const Landing = () => {
             <Values />
             <Testimonial />
             <UseCases />
+            <BookMeeting />
             <Banner />
             <FAQs />
             <Footer />

@@ -48,7 +48,7 @@ const UseCases = () => {
                 ))}
             </div>
 
-            <div className='pt-10 pb-4 flex justify-center'>
+            <div className='pt-14 pb-4 flex justify-center'>
                 <button className="w-fit bg-[#218448] cursor-pointer rounded-full text-sm text-white px-5 py-3 flex items-center gap-2">
                     Read more Use cases
                     <img src={RightArrow} alt="right arrow" />

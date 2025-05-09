@@ -54,16 +54,18 @@ const Values = () => {
                 <p className="text-sm sm:text-base md:text-lg px-2 sm:px-10 md:px-20">
                     Ottermap makes mapping effortless with accurate, real-time data and an intuitive interface. Whether you're exploring, planning, or building, trust our tech-driven platform to guide you every step of the way.
                 </p>
-                <div className="pt-6">
-                    <button className="bg-[#218448] cursor-pointer rounded-full text-sm text-white px-5 py-3 flex justify-center items-center gap-1">
+                <div className='flex gap-4 justify-center items-center pt-6'>
+                    <button className="bg-[#218448] cursor-pointer rounded-full text-white px-4 py-3 flex justify-center items-center gap-2">
                         Try for Free
                         <img src={RightArrow} alt="right arrow" />
+                    </button>
+                    <button className="border-[#218448] border-2 cursor-pointer rounded-full text-black px-4 py-3 flex justify-center items-center gap-1">Book a demo
                     </button>
                 </div>
             </div>
 
             {/* Values Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-12 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-16 max-w-7xl mx-auto">
                 {valueItems.map((item, index) => (
                     <div
                         key={index}
@@ -77,7 +79,7 @@ const Values = () => {
                                 {item.title}
                             </h3>
                         </div>
-                        <ul className="text-sm space-y-1 list-disc list-inside">
+                        <ul className="text-sm space-y-1 list-disc list-outside pl-3">
                             {item.point.map((point, index) => (
                                 <li key={index}>{point}</li>
                             ))}

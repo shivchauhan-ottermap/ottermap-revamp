@@ -148,6 +148,14 @@ const Features = () => {
             <div className="text-2xl font-normal text-center xl:px-32 lg:px-20 md:px-10 sm:px-10 max-sm:px-5 pt-6">
                 From fast takeoffs to portfolio-scale mapping, manage sites, and streamline your entire estimating process. Ottermap  equips you with intuitive tools, and combines accuracy, speed, and flexibility. So your team can estimate better and win faster.
             </div>
+            <div className='flex gap-4 pt-6 justify-center items-center'>
+                <button className="bg-[#218448] cursor-pointer rounded-full text-white px-4 py-3 flex justify-center items-center gap-2">
+                    Try for Free
+                    <img src={RightArrow} alt="right arrow" />
+                </button>
+                <button className="border-[#218448] border-2 cursor-pointer rounded-full text-black px-4 py-3 flex justify-center items-center gap-1">Book a demo
+                </button>
+            </div>
             <div className='pt-32'>
 
                 {features.map((feature, index) => {
